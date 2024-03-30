@@ -14,7 +14,8 @@ Adopt a Message queue systems for the online food ordering app.
 
 ## Decision Outcome
 
-Chosen option: "RabbitMQ", because ###### Loose Coupling: 
+Chosen option: "RabbitMQ", because 
+###### Loose Coupling: 
 RabbitMQ decouples microservices by providing a message-based communication mechanism, allowing services to communicate asynchronously without direct dependencies on each other.
 
 ###### Scalability:
