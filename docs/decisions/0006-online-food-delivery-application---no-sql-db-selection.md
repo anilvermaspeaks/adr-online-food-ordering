@@ -28,6 +28,4 @@ Cassandra's flexible data model accommodates dynamic and evolving data schemas, 
 ### Negative Consequences
 
 * Complexity: Cassandra has a steep learning curve, especially for developers who are new to NoSQL databases or distributed systems. Setting up and managing Cassandra clusters requires careful planning, configuration, and monitoring to ensure optimal performance and reliability.
-
-
 * Operational Overhead: Running and maintaining Cassandra clusters involves ongoing operational tasks such as cluster provisioning, monitoring, scaling, and backup and recovery. Managing these tasks can add complexity and overhead to your operations, especially for smaller teams with limited resources.
