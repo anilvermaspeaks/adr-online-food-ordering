@@ -5,7 +5,7 @@
 
 ## Context and Problem Statement
 
-Adopt a Message queue systems for the online food ordering app.
+Adopt a Message queue systems for the online food ordering app
 
 ## Considered Options
 
@@ -30,10 +30,10 @@ Kafka has gained widespread adoption in the industry, with many large-scale depl
 ### Positive Consequences
 
 * Scalability: Kafka is highly scalable, allowing you to handle large volumes of data and high throughput. This scalability is essential for applications like online food delivery, where there's a need to process a significant number of orders and updates in real-time.
-* Scalability: Kafka is highly scalable, allowing you to handle large volumes of data and high throughput. This scalability is essential for applications like online food delivery, where there's a need to process a significant number of orders and updates in real-time.
 * Fault Tolerance and Durability: Kafka provides strong durability guarantees by persisting messages to disk, ensuring that messages are not lost even in the event of system failures. This ensures data integrity and reliability, which are critical for online food delivery applications where order data must be preserved.
+* Decoupled Architecture: Kafka allows for a decoupled architecture where producers and consumers operate independently, enabling better resilience and fault tolerance. This decoupling is beneficial in microservices architectures, where services need to be loosely coupled.
 
 ### Negative Consequences
 
 * Complexity: Implementing Kafka in a microservices architecture can introduce complexity, especially if your team is not familiar with Kafka or event-driven architectures. Managing Kafka clusters, configuring topics, and ensuring data consistency can be challenging tasks.
-* Learning Curve: Kafka has a learning curve, particularly for developers who are new to event-driven architectures or distributed systems. 
+* Learning Curve: Kafka has a learning curve, particularly for developers who are new to event-driven architectures or distributed systems.
